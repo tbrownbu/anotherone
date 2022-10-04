@@ -1,4 +1,4 @@
-import practiceClassKEY as p
+import practiceClass as p
 import csv
 
 
@@ -34,6 +34,10 @@ shows = {
 play class that has id 9587
 NOTE: Do not hard code the values to create the instance but use
 keys and values from the dictionary '''
+
+for play in shows:
+    if shows[play]["id"]==9587:
+        ham=p.Play(shows[play]["id"],shows[play]["name"],shows[play]["capacity"],shows[play]["event_date"])
 
 
 
