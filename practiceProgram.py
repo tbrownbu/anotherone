@@ -39,7 +39,7 @@ for play in shows:
     if shows[play]["id"]==9587:
         ham=p.Play(shows[play]["id"],shows[play]["name"],shows[play]["capacity"],shows[play]["event_date"])
 
-
+#d
 
 '''using the bookings.csv file process only those 
 reservations for the same play (9587). Create an 
